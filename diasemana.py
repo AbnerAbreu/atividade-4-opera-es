@@ -1,16 +1,25 @@
 
-diasemana = {1:'domingo',
-             2:'segunda',
-             3:'terça',
-             4:'quarta',
-             5:'quinta',
-             6:'sexta',
-             7:'sabado'}
+valor = float(input('digite o um numero'))
+valor2 = float(input('digite outro numero'))
 
-dia = int(input('digite um numero: '))
+def soma(valor,valor2):
+    x = valor + valor2
+    print(x)
 
-try:
-   print(diasemana[dia])
-except:
-   print('Ops esse numero não existe na lista')
+def sub(valor,valor2):
+    x= valor - valor2
+    print(x)
 
+def mult(valor,valor2):
+    x = valor * valor2
+    print(x)
+
+def div(valor,valor2):
+    x =  valor / valor2
+    print(x)
+
+
+soma(valor,valor2)
+sub(valor,valor2)
+mult(valor,valor2)
+div(valor, valor2)
